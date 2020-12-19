@@ -1,0 +1,293 @@
+body{
+	background-color: #F5F5F5;
+}
+.nav-main{
+}
+.logo-text{
+	font-weight: bold;
+	font-size: 26px;
+}
+.logo-t1{
+	color: #00A59B;
+}
+.logo-t2{
+	color: #E58D20;
+}
+
+.nav-dd a{
+	color: #FFFFFF !important;
+	border-bottom: 1px solid #ACACAC;
+}
+.anouncement{
+	background-image: linear-gradient(to bottom right, #E2B049, #008080) ;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px 50px 10px 50px;
+	font-size: 17px;
+}
+.gallery-container img{
+	width: 100%;
+	height: 100%;
+}
+
+.restaurant-details{
+	background-color: #FFFFFF;
+	padding: 15px 15px;
+}
+.restaurant-details:after,
+.name-rating:after,
+.rat-num:after,
+.deal:after,
+.availability:after,
+.reviews:after,
+.extra-container:after,
+.missing-container:after{
+	content: "."; 
+   	visibility: hidden; 
+   	display: block; 
+   	height: 0; 
+   	clear: both;
+}
+.name-rating p, .name-rating h2{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.rating i{
+	color: #FCB030 !important;
+}
+.rat-num{
+	padding: 10px 0px;
+}
+.rat-num p{
+	line-height: 18px;
+}
+.rat-num-cont{
+	margin-left: 10px;
+	background-color: #FCB030;
+	color: #FFFFFF;
+	border-radius: 2px;
+	padding: 5px;
+	font-weight: bold;
+}
+.corona-detail1, .features{
+	margin: 20px 0px;
+	background-color: #FFF6EE;
+	padding: 10px;
+	font-weight: 500;
+}
+.features{
+	font-weight: normal !important;
+}
+.deal{
+	background-color: #FFF6EE;
+	border: 1px solid #F09F52;
+	border-radius: 2px;
+}
+.reg-btn{
+	background-color: #00A59B; 
+	color: #FFFFFF !important;
+	font-weight: bold;
+	font-size: 15px;
+	box-shadow: 2px 2px #C4C4C4;
+}
+.loc-villas-container{
+	margin-top: 30px !important;
+	margin-bottom: 20px !important;
+}
+.single-villa{
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 0 8px #747474;
+        box-shadow: 0 0 8px #747474;
+    margin-bottom: 20px;
+}
+.villa-img img{
+	width: 100%;
+	opacity: 0.6;
+}
+.villa-details{
+	padding: 10px;
+}
+.villa-features span, .label{
+	display: inline-block;
+	padding: 3px 6px;
+	background-color: #FFEEDE;
+	font-weight: 500;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+.villa-features i{
+	color: #FCB030;
+}
+.availability{
+	margin-top: 30px;
+}
+.non-availability{
+	background-color: #E5E5E5;
+	padding: 8px 14px;
+	text-align: center;
+	font-weight: 700;
+}
+.availability-infobtn button{
+	background-color: #2A8F78;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+.villa-detail-button{
+	margin-top: 20px;
+}
+.villa-detail-button button{
+	color: #FFFFFF !important;
+	background-color: #00A59B;
+}
+.island-details{
+	padding: 15px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 0 2px #747474;
+        box-shadow: 0 0 2px #747474;
+}
+.loc-map{
+	background-color: #FFFFFF;
+}
+.fac-list{
+	margin-bottom: -12px; 
+}
+.fac-list ul{
+	list-style-image: url("../images/check-solid.svg");
+	padding-left: 20px !important;
+	padding-top: 0px !important; 
+}
+.rating-999{
+	background-color: #FCB030;
+	padding: 8px 16px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.sup-text{
+	font-weight: bold;
+	font-size: 18px;
+}
+.rating-view{
+	background-color: #FFFFFF;
+}
+.rating-trans{
+	background-color: #FFFFFF;
+	border: 1px solid #FCB030;
+	color: #FCB030;
+}
+.reviews p{
+	line-height: 1px;
+}
+
+.activities ul, .foods ul, .kids ul, .entertainment ul{
+	list-style: none;
+	padding-left: 20px !important; 
+	line-height: 28px;
+}
+.extra-container, .missing-container{
+	clear: both;
+	background-color: #FFFFFF;
+}
+.rel-hotel-image-container{
+	background-image: url("../images/hotel-rel.jpg");
+	width: 100%;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 4px 4px 0px 0px;
+}
+.rel-p{
+	background-color: #FCB030;
+	color: white;
+	padding: 5px 10px;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 16px;
+}
+.rel-hotel-rating{
+	background-color: #FFFFFF;
+}
+.single-rel-hotel{
+	
+    margin-bottom: 20px;
+}
+.rel-con{
+	 border-radius: 3px; 
+	 width: 100%; 
+	-webkit-box-shadow: 0 0 3px #747474;
+        box-shadow: 0 0 3px #747474; 
+}
+
+
+
+
+
+
+.footer{
+	background-color: #002F3F;
+	padding: 30px 20px;
+}
+.footer-links ul{
+	list-style: none;
+	padding-left: 0px; 
+}
+.footer-links a{
+	color: #EBA022;
+	text-decoration: underline;
+}
+.copy-right, .contact-h{
+	font-weight: bold;
+}
+.footer-left, .contact-det{
+	color: #CCCCCC;	
+}
+.footer-left p, .contact-det p{
+	padding: 0px;
+	margin: 0px;
+}
+
+/**Single**/
+.bg-pink{
+	background-color: #FEEAD9;
+}
+
+.hotel-intro, .pr-description{
+	background-color: #FFFFFF;
+}
+.hotel-intro-text{
+	font-weight: bold;
+	font-size: 18px;
+}
+.color-pr{
+	background-color: #002F3F !important;
+}
+.clear-both{
+	clear: both;
+}
+.font-18{
+	font-size: 18px;
+}
+.weight-500{
+	font-weight: 500;
+}
+.color-82{
+	color: #828282;
+}
+.font-15{
+	font-size: 15px;
+}
+.color-gold{
+	color: #FCB030;
+}
+.bg-green{
+	background-color: #42C234;
+}
+.bg-grey{
+	background-color: #ECF1DB;
+}
+.w-80{
+	width: 80%;
+}
